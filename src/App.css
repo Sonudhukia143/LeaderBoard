@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.dash{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content{
+    background-color: whitesmoke;
+}
+
+.top-players{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+/* Top Players Css Styling */
+.player-card{
+  width: 280px;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.player-card:hover{
+    transition: transform 0.3s;
+    transform: scale(1.05);
+}
+
+.rank-badge{  
+position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Player Card Css Styling */
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.table{
+    width: 100%;
+}
+
+.pages{
+    display: flex;
+    flex-direction:column;
+}
